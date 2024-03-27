@@ -1,0 +1,21 @@
+{
+  "name": "content-type-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha --reporter spec tests/unit/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/deep-equal": "^1.0.4",
+    "@types/mocha": "^10.0.6",
+    "deep-equal": "^2.2.3",
+    "mocha": "^10.3.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
